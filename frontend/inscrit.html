@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="top-menu">
+            <h2>Page d'inscription <img src="images/icon.png"></h2> 
+            <button  onclick="go_to_connect()">Se connecter</button>
+            
+        </div>
+        
+        <div class="body-container" id="body_container1">
+            <div class="form">
+                <input type="text" id="user_name" placeholder="Votre nom">
+                <input type="text" id="user_mail" placeholder="Votre email">
+                <input type="password" id="user_pass" placeholder="Votre mot de passe">
+                
+                <button onclick="save_user()">Enregistrer</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
